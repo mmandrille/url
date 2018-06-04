@@ -25,7 +25,7 @@ SECRET_KEY = '!=1er+zbn%cg1m!6g7w0m3ha@-3iovk@kh^pvcb-@ka&qoo-k&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'url.jujuy.gob.ar']
 
 
 # Application definition
