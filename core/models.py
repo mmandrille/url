@@ -7,7 +7,10 @@ class Link(models.Model):
     nombre = models.TextField(max_length=50, null=True)
     objetivo = models.TextField(max_length=50, null=True)
     link_destino = models.URLField()
-    monitorizar = models.BooleanField(default=True)
+    monitorizar_usr = models.BooleanField(default=True)
+    clicks = models.IntegerField(default=0)
+    def __str__(self):
+        return self.nombre
 
 class Capturado(models.Model):
     link = models.ForeignKey(Link, on_delete=models.CASCADE)
