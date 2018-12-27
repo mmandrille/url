@@ -8,3 +8,8 @@ Correr:
 
 Podran accederlo via: http://localhost:8000
 y al admin via: http://localhost:8000/admin
+
+
+<section class="cont marca" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+				<img src="img/logo2.png">
+</section>
